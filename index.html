@@ -38,6 +38,22 @@ function handleUpperCase(){
 outputElement.value = inputElement. value.toUpperCase();
 
 }
+
+function handleLowerCase(){
+    outputElement.value = inputElement. value.toLowerCase();
+
+}   
+ function handleWordCount(){
+ const totalWords = inputElement.value.split(" ").length;
+
+ outputElement.value = `Word Count: ${totalWords}`;
+    
+ }
+ function handleCharacterCount(){
+    outputElement.value = `Character Count: ${inputElement.value.length}`;
+
+ }
+
   </script>
 </body>
 </html>
